@@ -1008,7 +1008,7 @@ config firewall address
       set country ZW
    next
 end
- config firewall addrgrp
+config firewall addrgrp
    edit all_countries
       set member    geo_Reserved
       append member geo_Afghanistan

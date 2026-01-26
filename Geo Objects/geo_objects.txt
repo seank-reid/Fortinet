@@ -1315,7 +1315,42 @@ end
       append member geo_United_Kingdom
       append member geo_Vatican_State
    next
-   edit African
+   edit Asian
+      set member geo_Afghanistan
+      append member geo_Armenia
+      append member geo_Azerbaijan
+      append member geo_Bahrain
+      append member geo_Bangladesh
+      append member geo_Bhutan
+      append member geo_Brunei_Darussalam
+      append member geo_Cambodia
+      append member geo_China
+      append member geo_Georgia
+      append member geo_Hong_Kong
+      append member geo_India
+      append member geo_Indonesia
+      append member geo_Iran
+      append member geo_Iraq
+      append member geo_Israel
+      append member geo_Japan
+      append member geo_Jordan
+      append member geo_Kazakhstan
+      append member geo_Kuwait
+      append member geo_Kyrgyzstan
+      append member geo_Lebanon
+      append member geo_Macao
+      append member geo_Malaysia
+      append member geo_Maldives
+      append member geo_Mongolia
+      append member geo_Myanmar
+      append member geo_Nepal
+      append member geo_North_Korea
+      append member geo_Oman
+      append member geo_Pakistan
+      append member geo_Palestinian_Territory
+      append member geo_Philippines
+      append member geo_Qatar
+      append member geo_Saudi_Arabia
       append member geo_Singapore
       append member geo_Sri_Lanka
       append member geo_Syria
@@ -1329,6 +1364,65 @@ end
       append member geo_Vietnam
       append member geo_Yemen
       append member geo_South_Korea
+   next
+   edit African
+      set member geo_Algeria
+      append member geo_Angola
+      append member geo_Benin
+      append member geo_Botswana
+      append member geo_Burkina_Faso
+      append member geo_Burundi
+      append member geo_Cameroon
+      append member geo_Cape_Verde
+      append member geo_Central_African_Republic
+      append member geo_Chad
+      append member geo_Comoros
+      append member geo_Congo
+      append member geo_Cote_dIvoire
+      append member geo_DR_Congo
+      append member geo_Djibouti
+      append member geo_Egypt
+      append member geo_Equatorial_Guinea
+      append member geo_Eritrea
+      append member geo_Ethiopia
+      append member geo_Gabon
+      append member geo_Gambia
+      append member geo_Ghana
+      append member geo_Guinea
+      append member geo_Guinea-Bissau
+      append member geo_Kenya
+      append member geo_Lesotho
+      append member geo_Liberia
+      append member geo_Libya
+      append member geo_Madagascar
+      append member geo_Malawi
+      append member geo_Mali
+      append member geo_Mauritania
+      append member geo_Mauritius
+      append member geo_Mayotte
+      append member geo_Morocco
+      append member geo_Mozambique
+      append member geo_Namibia
+      append member geo_Niger
+      append member geo_Nigeria
+      append member geo_Reunion
+      append member geo_Rwanda
+      append member geo_Sao_Tome_and_Principe
+      append member geo_Senegal
+      append member geo_Seychelles
+      append member geo_Sierra_Leone
+      append member geo_Somalia
+      append member geo_South_Africa
+      append member geo_South_Sudan
+      append member geo_Sudan
+      append member geo_Swaziland
+      append member geo_Tanzania
+      append member geo_Togo
+      append member geo_Tunisia
+      append member geo_Uganda
+      append member geo_Western_Sahara
+      append member geo_Zambia
+      append member geo_Zimbabwe
   next
   edit North_American
       set member geo_Canada

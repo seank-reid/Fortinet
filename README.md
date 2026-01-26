@@ -11,7 +11,7 @@ A ready-to-paste FortiGate CLI snippet that builds:
 - `geo_<Country>` geography address objects
 - Address groups for **all countries** and **continents**
 
-This is helpful because **geo objects aren’t populated in the config by default**, but you can still use them once they exist as address objects (policies, VPN rules, etc.).
+This is helpful because geo objects aren’t populated in the config by default, but you can still use them once they exist as address objects (policies, VPN rules, etc.).
 
 ## How to Use
 

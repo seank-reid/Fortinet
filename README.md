@@ -20,5 +20,5 @@ This is helpful because **geo objects aren’t populated in the config by defaul
 - Validate in the GUI under *Policy & Objects*.
 
 ## Notes
-- Treat this as a reference repo — review before deploying in production.
+- Treat this as a reference repo. Please review before deploying in production.
 - If you want to contribute or suggest improvements, feel free to open an issue/PR.

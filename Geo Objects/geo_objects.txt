@@ -1,0 +1,1423 @@
+config firewall address
+   edit geo_Reserved
+      set type geography
+      set country ZZ
+   next
+   edit geo_Other_Country
+      set type geography
+      set country O1
+   next
+   edit geo_Andorra
+      set type geography
+      set country AD
+   next
+   edit geo_United_Arab_Emirates
+      set type geography
+      set country AE
+   next
+   edit geo_Afghanistan
+      set type geography
+      set country AF
+   next
+   edit geo_Antigua_and_Barbuda
+      set type geography
+      set country AG
+   next
+   edit geo_Anguilla
+      set type geography
+      set country AI
+   next
+   edit geo_Albania
+      set type geography
+      set country AL
+   next
+   edit geo_Armenia
+      set type geography
+      set country AM
+   next
+   edit geo_Dutch_Antilles
+      set type geography
+      set country AN
+   next
+   edit geo_Angola
+      set type geography
+      set country AO
+   next
+   edit geo_Antarctica
+      set type geography
+      set country AQ
+   next
+   edit geo_Argentina
+      set type geography
+      set country AR
+   next
+   edit geo_American_Samoa
+      set type geography
+      set country AS
+   next
+   edit geo_Austria
+      set type geography
+      set country AT
+   next
+   edit geo_Australia
+      set type geography
+      set country AU
+   next
+   edit geo_Aruba
+      set type geography
+      set country AW
+   next
+   edit geo_Aland_Islands
+      set type geography
+      set country AX
+   next
+   edit geo_Azerbaijan
+      set type geography
+      set country AZ
+   next
+   edit geo_Bosnia_and_Herzegovina
+      set type geography
+      set country BA
+   next
+   edit geo_Barbados
+      set type geography
+      set country BB
+   next
+   edit geo_Bangladesh
+      set type geography
+      set country BD
+   next
+   edit geo_Belgium
+      set type geography
+      set country BE
+   next
+   edit geo_Burkina_Faso
+      set type geography
+      set country BF
+   next
+   edit geo_Bulgaria
+      set type geography
+      set country BG
+   next
+   edit geo_Bahrain
+      set type geography
+      set country BH
+   next
+   edit geo_Burundi
+      set type geography
+      set country BI
+   next
+   edit geo_Benin
+      set type geography
+      set country BJ
+   next
+   edit geo_St.Bartelemey
+      set type geography
+      set country BL
+   next
+   edit geo_Bermuda
+      set type geography
+      set country BM
+   next
+   edit geo_Brunei_Darussalam
+      set type geography
+      set country BN
+   next
+   edit geo_Bolivia
+      set type geography
+      set country BO
+   next
+   edit geo_Bonaire_St.Eustatius_and_Saba
+      set type geography
+      set country BQ
+   next
+   edit geo_Brazil
+      set type geography
+      set country BR
+   next
+   edit geo_Bahamas
+      set type geography
+      set country BS
+   next
+   edit geo_Bhutan
+      set type geography
+      set country BT
+   next
+   edit geo_Bouvet_Island
+      set type geography
+      set country BV
+   next
+   edit geo_Botswana
+      set type geography
+      set country BW
+   next
+   edit geo_Belarus
+      set type geography
+      set country BY
+   next
+   edit geo_Belize
+      set type geography
+      set country BZ
+   next
+   edit geo_Canada
+      set type geography
+      set country CA
+   next
+   edit geo_Cocos_Keeling_Islands
+      set type geography
+      set country CC
+   next
+   edit geo_DR_Congo
+      set type geography
+      set country CD
+   next
+   edit geo_Central_African_Republic
+      set type geography
+      set country CF
+   next
+   edit geo_Congo
+      set type geography
+      set country CG
+   next
+   edit geo_Switzerland
+      set type geography
+      set country CH
+   next
+   edit geo_Cote_dIvoire
+      set type geography
+      set country CI
+   next
+   edit geo_Cook_Islands
+      set type geography
+      set country CK
+   next
+   edit geo_Chile
+      set type geography
+      set country CL
+   next
+   edit geo_Cameroon
+      set type geography
+      set country CM
+   next
+   edit geo_China
+      set type geography
+      set country CN
+   next
+   edit geo_Colombia
+      set type geography
+      set country CO
+   next
+   edit geo_Costa_Rica
+      set type geography
+      set country CR
+   next
+   edit geo_Cuba
+      set type geography
+      set country CU
+   next
+   edit geo_Cape_Verde
+      set type geography
+      set country CV
+   next
+   edit geo_Curacao
+      set type geography
+      set country CW
+   next
+   edit geo_Christmas_Island
+      set type geography
+      set country CX
+   next
+   edit geo_Cyprus
+      set type geography
+      set country CY
+   next
+   edit geo_Czech_Republic
+      set type geography
+      set country CZ
+   next
+   edit geo_Germany
+      set type geography
+      set country DE
+   next
+   edit geo_Djibouti
+      set type geography
+      set country DJ
+   next
+   edit geo_Denmark
+      set type geography
+      set country DK
+   next
+   edit geo_Dominica
+      set type geography
+      set country DM
+   next
+   edit geo_Dominican_Republic
+      set type geography
+      set country DO
+   next
+   edit geo_Algeria
+      set type geography
+      set country DZ
+   next
+   edit geo_Ecuador
+      set type geography
+      set country EC
+   next
+   edit geo_Estonia
+      set type geography
+      set country EE
+   next
+   edit geo_Egypt
+      set type geography
+      set country EG
+   next
+   edit geo_Western_Sahara
+      set type geography
+      set country EH
+   next
+   edit geo_Eritrea
+      set type geography
+      set country ER
+   next
+   edit geo_Spain
+      set type geography
+      set country ES
+   next
+   edit geo_Ethiopia
+      set type geography
+      set country ET
+   next
+   edit geo_Finland
+      set type geography
+      set country FI
+   next
+   edit geo_Fiji
+      set type geography
+      set country FJ
+   next
+   edit geo_Falkland_Islands_Malvinas
+      set type geography
+      set country FK
+   next
+   edit geo_Micronesia
+      set type geography
+      set country FM
+   next
+   edit geo_Faroe_Islands
+      set type geography
+      set country FO
+   next
+   edit geo_France
+      set type geography
+      set country FR
+   next
+   edit geo_Gabon
+      set type geography
+      set country GA
+   next
+   edit geo_United_Kingdom
+      set type geography
+      set country GB
+   next
+   edit geo_Grenada
+      set type geography
+      set country GD
+   next
+   edit geo_Georgia
+      set type geography
+      set country GE
+   next
+   edit geo_French_Guiana
+      set type geography
+      set country GF
+   next
+   edit geo_Guernsey
+      set type geography
+      set country GG
+   next
+   edit geo_Ghana
+      set type geography
+      set country GH
+   next
+   edit geo_Gibraltar
+      set type geography
+      set country GI
+   next
+   edit geo_Greenland
+      set type geography
+      set country GL
+   next
+   edit geo_Gambia
+      set type geography
+      set country GM
+   next
+   edit geo_Guinea
+      set type geography
+      set country GN
+   next
+   edit geo_Guadeloupe
+      set type geography
+      set country GP
+   next
+   edit geo_Equatorial_Guinea
+      set type geography
+      set country GQ
+   next
+   edit geo_Greece
+      set type geography
+      set country GR
+   next
+   edit geo_South_Georgia_and_the_South_Sandwich_Islands
+      set type geography
+      set country GS
+   next
+   edit geo_Guatemala
+      set type geography
+      set country GT
+   next
+   edit geo_Guam
+      set type geography
+      set country GU
+   next
+   edit geo_Guinea-Bissau
+      set type geography
+      set country GW
+   next
+   edit geo_Guyana
+      set type geography
+      set country GY
+   next
+   edit geo_Hong_Kong
+      set type geography
+      set country HK
+   next
+   edit geo_Heard_Island_and_McDonald_Islands
+      set type geography
+      set country HM
+   next
+   edit geo_Honduras
+      set type geography
+      set country HN
+   next
+   edit geo_Croatia
+      set type geography
+      set country HR
+   next
+   edit geo_Haiti
+      set type geography
+      set country HT
+   next
+   edit geo_Hungary
+      set type geography
+      set country HU
+   next
+   edit geo_Indonesia
+      set type geography
+      set country ID
+   next
+   edit geo_Ireland
+      set type geography
+      set country IE
+   next
+   edit geo_Israel
+      set type geography
+      set country IL
+   next
+   edit geo_Isle_of_Man
+      set type geography
+      set country IM
+   next
+   edit geo_India
+      set type geography
+      set country IN
+   next
+   edit geo_British_Indian_Ocean_Territory
+      set type geography
+      set country IO
+   next
+   edit geo_Iraq
+      set type geography
+      set country IQ
+   next
+   edit geo_Iran
+      set type geography
+      set country IR
+   next
+   edit geo_Iceland
+      set type geography
+      set country IS
+   next
+   edit geo_Italy
+      set type geography
+      set country IT
+   next
+   edit geo_Jersey
+      set type geography
+      set country JE
+   next
+   edit geo_Jamaica
+      set type geography
+      set country JM
+   next
+   edit geo_Jordan
+      set type geography
+      set country JO
+   next
+   edit geo_Japan
+      set type geography
+      set country JP
+   next
+   edit geo_Kenya
+      set type geography
+      set country KE
+   next
+   edit geo_Kyrgyzstan
+      set type geography
+      set country KG
+   next
+   edit geo_Cambodia
+      set type geography
+      set country KH
+   next
+   edit geo_Kiribati
+      set type geography
+      set country KI
+   next
+   edit geo_Comoros
+      set type geography
+      set country KM
+   next
+   edit geo_St.Kitts_and_Nevis
+      set type geography
+      set country KN
+   next
+   edit geo_North_Korea
+      set type geography
+      set country KP
+   next
+   edit geo_South_Korea
+      set type geography
+      set country KR
+   next
+   edit geo_Kuwait
+      set type geography
+      set country KW
+   next
+   edit geo_Cayman_Islands
+      set type geography
+      set country KY
+   next
+   edit geo_Kazakhstan
+      set type geography
+      set country KZ
+   next
+   edit geo_DR_Lao
+      set type geography
+      set country LA
+   next
+   edit geo_Lebanon
+      set type geography
+      set country LB
+   next
+   edit geo_St.Lucia
+      set type geography
+      set country LC
+   next
+   edit geo_Liechtenstein
+      set type geography
+      set country LI
+   next
+   edit geo_Sri_Lanka
+      set type geography
+      set country LK
+   next
+   edit geo_Liberia
+      set type geography
+      set country LR
+   next
+   edit geo_Lesotho
+      set type geography
+      set country LS
+   next
+   edit geo_Lithuania
+      set type geography
+      set country LT
+   next
+   edit geo_Luxembourg
+      set type geography
+      set country LU
+   next
+   edit geo_Latvia
+      set type geography
+      set country LV
+   next
+   edit geo_Libya
+      set type geography
+      set country LY
+   next
+   edit geo_Morocco
+      set type geography
+      set country MA
+   next
+   edit geo_Monaco
+      set type geography
+      set country MC
+   next
+   edit geo_Moldova
+      set type geography
+      set country MD
+   next
+   edit geo_Montenegro
+      set type geography
+      set country ME
+   next
+   edit geo_St.Martin
+      set type geography
+      set country MF
+   next
+   edit geo_Madagascar
+      set type geography
+      set country MG
+   next
+   edit geo_Marshall_Islands
+      set type geography
+      set country MH
+   next
+   edit geo_Macedonia
+      set type geography
+      set country MK
+   next
+   edit geo_Mali
+      set type geography
+      set country ML
+   next
+   edit geo_Myanmar
+      set type geography
+      set country MM
+   next
+   edit geo_Mongolia
+      set type geography
+      set country MN
+   next
+   edit geo_Macao
+      set type geography
+      set country MO
+   next
+   edit geo_Northern_Mariana_Islands
+      set type geography
+      set country MP
+   next
+   edit geo_Martinique
+      set type geography
+      set country MQ
+   next
+   edit geo_Mauritania
+      set type geography
+      set country MR
+   next
+   edit geo_Montserrat
+      set type geography
+      set country MS
+   next
+   edit geo_Malta
+      set type geography
+      set country MT
+   next
+   edit geo_Mauritius
+      set type geography
+      set country MU
+   next
+   edit geo_Maldives
+      set type geography
+      set country MV
+   next
+   edit geo_Malawi
+      set type geography
+      set country MW
+   next
+   edit geo_Mexico
+      set type geography
+      set country MX
+   next
+   edit geo_Malaysia
+      set type geography
+      set country MY
+   next
+   edit geo_Mozambique
+      set type geography
+      set country MZ
+   next
+   edit geo_Namibia
+      set type geography
+      set country NA
+   next
+   edit geo_New_Caledonia
+      set type geography
+      set country NC
+   next
+   edit geo_Niger
+      set type geography
+      set country NE
+   next
+   edit geo_Norfolk_Island
+      set type geography
+      set country NF
+   next
+   edit geo_Nigeria
+      set type geography
+      set country NG
+   next
+   edit geo_Nicaragua
+      set type geography
+      set country NI
+   next
+   edit geo_Netherlands
+      set type geography
+      set country NL
+   next
+   edit geo_Norway
+      set type geography
+      set country NO
+   next
+   edit geo_Nepal
+      set type geography
+      set country NP
+   next
+   edit geo_Nauru
+      set type geography
+      set country NR
+   next
+   edit geo_Niue
+      set type geography
+      set country NU
+   next
+   edit geo_New_Zealand
+      set type geography
+      set country NZ
+   next
+   edit geo_Oman
+      set type geography
+      set country OM
+   next
+   edit geo_Panama
+      set type geography
+      set country PA
+   next
+   edit geo_Peru
+      set type geography
+      set country PE
+   next
+   edit geo_French_Polynesia
+      set type geography
+      set country PF
+   next
+   edit geo_Papua_New_Guinea
+      set type geography
+      set country PG
+   next
+   edit geo_Philippines
+      set type geography
+      set country PH
+   next
+   edit geo_Pakistan
+      set type geography
+      set country PK
+   next
+   edit geo_Poland
+      set type geography
+      set country PL
+   next
+   edit geo_St.Pierre_and_Miquelon
+      set type geography
+      set country PM
+   next
+   edit geo_Pitcairn
+      set type geography
+      set country PN
+   next
+   edit geo_Puerto_Rico
+      set type geography
+      set country PR
+   next
+   edit geo_Palestinian_Territory
+      set type geography
+      set country PS
+   next
+   edit geo_Portugal
+      set type geography
+      set country PT
+   next
+   edit geo_Palau
+      set type geography
+      set country PW
+   next
+   edit geo_Paraguay
+      set type geography
+      set country PY
+   next
+   edit geo_Qatar
+      set type geography
+      set country QA
+   next
+   edit geo_Reunion
+      set type geography
+      set country RE
+   next
+   edit geo_Romania
+      set type geography
+      set country RO
+   next
+   edit geo_Serbia
+      set type geography
+      set country RS
+   next
+   edit geo_Russian_Federation
+      set type geography
+      set country RU
+   next
+   edit geo_Rwanda
+      set type geography
+      set country RW
+   next
+   edit geo_Saudi_Arabia
+      set type geography
+      set country SA
+   next
+   edit geo_Solomon_Islands
+      set type geography
+      set country SB
+   next
+   edit geo_Seychelles
+      set type geography
+      set country SC
+   next
+   edit geo_Sudan
+      set type geography
+      set country SD
+   next
+   edit geo_Sweden
+      set type geography
+      set country SE
+   next
+   edit geo_Singapore
+      set type geography
+      set country SG
+   next
+   edit geo_St.Helena
+      set type geography
+      set country SH
+   next
+   edit geo_Slovenia
+      set type geography
+      set country SI
+   next
+   edit geo_Svalbard_and_Jan_Mayen
+      set type geography
+      set country SJ
+   next
+   edit geo_Slovakia
+      set type geography
+      set country SK
+   next
+   edit geo_Sierra_Leone
+      set type geography
+      set country SL
+   next
+   edit geo_San_Marino
+      set type geography
+      set country SM
+   next
+   edit geo_Senegal
+      set type geography
+      set country SN
+   next
+   edit geo_Somalia
+      set type geography
+      set country SO
+   next
+   edit geo_Suriname
+      set type geography
+      set country SR
+   next
+   edit geo_South_Sudan
+      set type geography
+      set country SS
+   next
+   edit geo_Sao_Tome_and_Principe
+      set type geography
+      set country ST
+   next
+   edit geo_El_Salvador
+      set type geography
+      set country SV
+   next
+   edit geo_Sint_Maarten
+      set type geography
+      set country SX
+   next
+   edit geo_Syria
+      set type geography
+      set country SY
+   next
+   edit geo_Swaziland
+      set type geography
+      set country SZ
+   next
+   edit geo_Turks_and_Caicos_Islands
+      set type geography
+      set country TC
+   next
+   edit geo_Chad
+      set type geography
+      set country TD
+   next
+   edit geo_French_Southern_Territories
+      set type geography
+      set country TF
+   next
+   edit geo_Togo
+      set type geography
+      set country TG
+   next
+   edit geo_Thailand
+      set type geography
+      set country TH
+   next
+   edit geo_Tajikistan
+      set type geography
+      set country TJ
+   next
+   edit geo_Tokelau
+      set type geography
+      set country TK
+   next
+   edit geo_Timor-Leste
+      set type geography
+      set country TL
+   next
+   edit geo_Turkmenistan
+      set type geography
+      set country TM
+   next
+   edit geo_Tunisia
+      set type geography
+      set country TN
+   next
+   edit geo_Tonga
+      set type geography
+      set country TO
+   next
+   edit geo_Turkey
+      set type geography
+      set country TR
+   next
+   edit geo_Trinidad_and_Tobago
+      set type geography
+      set country TT
+   next
+   edit geo_Tuvalu
+      set type geography
+      set country TV
+   next
+   edit geo_Taiwan
+      set type geography
+      set country TW
+   next
+   edit geo_Tanzania
+      set type geography
+      set country TZ
+   next
+   edit geo_Ukraine
+      set type geography
+      set country UA
+   next
+   edit geo_Uganda
+      set type geography
+      set country UG
+   next
+   edit geo_United_States_Minor_Outlying_Islands
+      set type geography
+      set country UM
+   next
+   edit geo_United_States
+      set type geography
+      set country US
+   next
+   edit geo_Uruguay
+      set type geography
+      set country UY
+   next
+   edit geo_Uzbekistan
+      set type geography
+      set country UZ
+   next
+   edit geo_Vatican_State
+      set type geography
+      set country VA
+   next
+   edit geo_St.Vincent_and_the_Grenadines
+      set type geography
+      set country VC
+   next
+   edit geo_Venezuela
+      set type geography
+      set country VE
+   next
+   edit geo_British_Virgin_Islands
+      set type geography
+      set country VG
+   next
+   edit geo_American_Virgin_Islands
+      set type geography
+      set country VI
+   next
+   edit geo_Vietnam
+      set type geography
+      set country VN
+   next
+   edit geo_Vanuatu
+      set type geography
+      set country VU
+   next
+   edit geo_Wallis_and_Futuna
+      set type geography
+      set country WF
+   next
+   edit geo_Samoa
+      set type geography
+      set country WS
+   next
+   edit geo_Yemen
+      set type geography
+      set country YE
+   next
+   edit geo_Mayotte
+      set type geography
+      set country YT
+   next
+   edit geo_South_Africa
+      set type geography
+      set country ZA
+   next
+   edit geo_Zambia
+      set type geography
+      set country ZM
+   next
+   edit geo_Zimbabwe
+      set type geography
+      set country ZW
+   next
+end
+ config firewall addrgrp
+   edit all_countries
+      set member    geo_Reserved
+      append member geo_Afghanistan
+      append member geo_Aland_Islands
+      append member geo_Albania
+      append member geo_Algeria
+      append member geo_American_Samoa
+      append member geo_American_Virgin_Islands
+      append member geo_Andorra
+      append member geo_Angola
+      append member geo_Anguilla
+      append member geo_Antarctica
+      append member geo_Antigua_and_Barbuda
+      append member geo_Argentina
+      append member geo_Armenia
+      append member geo_Aruba
+      append member geo_Australia
+      append member geo_Austria
+      append member geo_Azerbaijan
+      append member geo_Bahamas
+      append member geo_Bahrain
+      append member geo_Bangladesh
+      append member geo_Barbados
+      append member geo_Belarus
+      append member geo_Belgium
+      append member geo_Belize
+      append member geo_Benin
+      append member geo_Bermuda
+      append member geo_Bhutan
+      append member geo_Bolivia
+      append member geo_Bonaire_St.Eustatius_and_Saba
+      append member geo_Bosnia_and_Herzegovina
+      append member geo_Botswana
+      append member geo_Bouvet_Island
+      append member geo_Brazil
+      append member geo_British_Indian_Ocean_Territory
+      append member geo_British_Virgin_Islands
+      append member geo_Brunei_Darussalam
+      append member geo_Bulgaria
+      append member geo_Burkina_Faso
+      append member geo_Burundi
+      append member geo_Cambodia
+      append member geo_Cameroon
+      append member geo_Canada
+      append member geo_Cape_Verde
+      append member geo_Cayman_Islands
+      append member geo_Central_African_Republic
+      append member geo_Chad
+      append member geo_Chile
+      append member geo_China
+      append member geo_Christmas_Island
+      append member geo_Cocos_Keeling_Islands
+      append member geo_Colombia
+      append member geo_Comoros
+      append member geo_Congo
+      append member geo_Cook_Islands
+      append member geo_Costa_Rica
+      append member geo_Cote_dIvoire
+      append member geo_Croatia
+      append member geo_Cuba
+      append member geo_Curacao
+      append member geo_Cyprus
+      append member geo_Czech_Republic
+      append member geo_Denmark
+      append member geo_Djibouti
+      append member geo_Dominica
+      append member geo_Dominican_Republic
+      append member geo_DR_Congo
+      append member geo_DR_Lao
+      append member geo_Dutch_Antilles
+      append member geo_Ecuador
+      append member geo_Egypt
+      append member geo_El_Salvador
+      append member geo_Equatorial_Guinea
+      append member geo_Eritrea
+      append member geo_Estonia
+      append member geo_Ethiopia
+      append member geo_Falkland_Islands_Malvinas
+      append member geo_Faroe_Islands
+      append member geo_Fiji
+      append member geo_Finland
+      append member geo_France
+      append member geo_French_Guiana
+      append member geo_French_Polynesia
+      append member geo_French_Southern_Territories
+      append member geo_Gabon
+      append member geo_Gambia
+      append member geo_Georgia
+      append member geo_Germany
+      append member geo_Ghana
+      append member geo_Gibraltar
+      append member geo_Greece
+      append member geo_Greenland
+      append member geo_Grenada
+      append member geo_Guadeloupe
+      append member geo_Guam
+      append member geo_Guatemala
+      append member geo_Guernsey
+      append member geo_Guinea
+      append member geo_Guinea-Bissau
+      append member geo_Guyana
+      append member geo_Haiti
+      append member geo_Heard_Island_and_McDonald_Islands
+      append member geo_Honduras
+      append member geo_Hong_Kong
+      append member geo_Hungary
+      append member geo_Iceland
+      append member geo_India
+      append member geo_Indonesia
+      append member geo_Iran
+      append member geo_Iraq
+      append member geo_Ireland
+      append member geo_Isle_of_Man
+      append member geo_Israel
+      append member geo_Italy
+      append member geo_Jamaica
+      append member geo_Japan
+      append member geo_Jersey
+      append member geo_Jordan
+      append member geo_Kazakhstan
+      append member geo_Kenya
+      append member geo_Kiribati
+      append member geo_Kuwait
+      append member geo_Kyrgyzstan
+      append member geo_Latvia
+      append member geo_Lebanon
+      append member geo_Lesotho
+      append member geo_Liberia
+      append member geo_Libya
+      append member geo_Liechtenstein
+      append member geo_Lithuania
+      append member geo_Luxembourg
+      append member geo_Macao
+      append member geo_Macedonia
+      append member geo_Madagascar
+      append member geo_Malawi
+      append member geo_Malaysia
+      append member geo_Maldives
+      append member geo_Mali
+      append member geo_Malta
+      append member geo_Marshall_Islands
+      append member geo_Martinique
+      append member geo_Mauritania
+      append member geo_Mauritius
+      append member geo_Mayotte
+      append member geo_Mexico
+      append member geo_Micronesia
+      append member geo_Moldova
+      append member geo_Monaco
+      append member geo_Mongolia
+      append member geo_Montenegro
+      append member geo_Montserrat
+      append member geo_Morocco
+      append member geo_Mozambique
+      append member geo_Myanmar
+      append member geo_Namibia
+      append member geo_Nauru
+      append member geo_Nepal
+      append member geo_Netherlands
+      append member geo_New_Caledonia
+      append member geo_New_Zealand
+      append member geo_Nicaragua
+      append member geo_Niger
+      append member geo_Nigeria
+      append member geo_Niue
+      append member geo_Norfolk_Island
+      append member geo_North_Korea
+      append member geo_Northern_Mariana_Islands
+      append member geo_Norway
+      append member geo_Oman
+      append member geo_Other_Country
+      append member geo_Pakistan
+      append member geo_Palau
+      append member geo_Palestinian_Territory
+      append member geo_Panama
+      append member geo_Papua_New_Guinea
+      append member geo_Paraguay
+      append member geo_Peru
+      append member geo_Philippines
+      append member geo_Pitcairn
+      append member geo_Poland
+      append member geo_Portugal
+      append member geo_Puerto_Rico
+      append member geo_Qatar
+      append member geo_Reunion
+      append member geo_Romania
+      append member geo_Russian_Federation
+      append member geo_Rwanda
+      append member geo_Samoa
+      append member geo_San_Marino
+      append member geo_Sao_Tome_and_Principe
+      append member geo_Saudi_Arabia
+      append member geo_Senegal
+      append member geo_Serbia
+      append member geo_Seychelles
+      append member geo_Sierra_Leone
+      append member geo_Singapore
+      append member geo_Sint_Maarten
+      append member geo_Slovakia
+      append member geo_Slovenia
+      append member geo_Solomon_Islands
+      append member geo_Somalia
+      append member geo_South_Africa
+      append member geo_South_Georgia_and_the_South_Sandwich_Islands
+      append member geo_South_Korea
+      append member geo_South_Sudan
+      append member geo_Spain
+      append member geo_Sri_Lanka
+      append member geo_St.Bartelemey
+      append member geo_St.Helena
+      append member geo_St.Kitts_and_Nevis
+      append member geo_St.Lucia
+      append member geo_St.Martin
+      append member geo_St.Pierre_and_Miquelon
+      append member geo_St.Vincent_and_the_Grenadines
+      append member geo_Sudan
+      append member geo_Suriname
+      append member geo_Svalbard_and_Jan_Mayen
+      append member geo_Swaziland
+      append member geo_Sweden
+      append member geo_Switzerland
+      append member geo_Syria
+      append member geo_Taiwan
+      append member geo_Tajikistan
+      append member geo_Tanzania
+      append member geo_Thailand
+      append member geo_Timor-Leste
+      append member geo_Togo
+      append member geo_Tokelau
+      append member geo_Tonga
+      append member geo_Trinidad_and_Tobago
+      append member geo_Tunisia
+      append member geo_Turkey
+      append member geo_Turkmenistan
+      append member geo_Turks_and_Caicos_Islands
+      append member geo_Tuvalu
+      append member geo_Uganda
+      append member geo_Ukraine
+      append member geo_United_Arab_Emirates
+      append member geo_United_Kingdom
+      append member geo_United_States
+      append member geo_United_States_Minor_Outlying_Islands
+      append member geo_Uruguay
+      append member geo_Uzbekistan
+      append member geo_Vanuatu
+      append member geo_Vatican_State
+      append member geo_Venezuela
+      append member geo_Vietnam
+      append member geo_Wallis_and_Futuna
+      append member geo_Western_Sahara
+      append member geo_Yemen
+      append member geo_Zambia
+      append member geo_Zimbabwe
+   next
+   edit European
+      set member    geo_Aland_Islands
+      append member geo_Albania
+      append member geo_Andorra
+      append member geo_Austria
+      append member geo_Belgium
+      append member geo_Bosnia_and_Herzegovina
+      append member geo_Bulgaria
+      append member geo_Croatia
+      append member geo_Cyprus
+      append member geo_Czech_Republic
+      append member geo_Denmark
+      append member geo_Estonia
+      append member geo_Faroe_Islands
+      append member geo_Finland
+      append member geo_France
+      append member geo_Germany
+      append member geo_Gibraltar
+      append member geo_Greece
+      append member geo_Guernsey
+      append member geo_Hungary
+      append member geo_Iceland
+      append member geo_Ireland
+      append member geo_Isle_of_Man
+      append member geo_Italy
+      append member geo_Jersey
+      append member geo_Latvia
+      append member geo_Liechtenstein
+      append member geo_Lithuania
+      append member geo_Luxembourg
+      append member geo_Macedonia
+      append member geo_Malta
+      append member geo_Moldova
+      append member geo_Monaco
+      append member geo_Montenegro
+      append member geo_Netherlands
+      append member geo_Norway
+      append member geo_Poland
+      append member geo_Portugal
+      append member geo_Romania
+      append member geo_Russian_Federation
+      append member geo_San_Marino
+      append member geo_Serbia
+      append member geo_Slovakia
+      append member geo_Slovenia
+      append member geo_Spain
+      append member geo_Sweden
+      append member geo_Switzerland
+      append member geo_Turkey
+      append member geo_United_Kingdom
+      append member geo_Vatican_State
+   next
+   edit African
+      append member geo_Singapore
+      append member geo_Sri_Lanka
+      append member geo_Syria
+      append member geo_Taiwan
+      append member geo_Tajikistan
+      append member geo_Thailand
+      append member geo_Timor-Leste
+      append member geo_Turkmenistan
+      append member geo_United_Arab_Emirates
+      append member geo_Uzbekistan
+      append member geo_Vietnam
+      append member geo_Yemen
+      append member geo_South_Korea
+  next
+  edit North_American
+      set member geo_Canada
+      append member geo_United_States
+      append member geo_Mexico
+      append member geo_Greenland
+      append member geo_Bermuda
+      append member geo_Bahamas
+      append member geo_Barbados
+      append member geo_Cuba
+      append member geo_Jamaica
+      append member geo_Haiti
+      append member geo_Dominica
+      append member geo_Dominican_Republic
+      append member geo_Antigua_and_Barbuda
+      append member geo_Grenada
+      append member geo_St.Kitts_and_Nevis
+      append member geo_St.Lucia
+      append member geo_St.Vincent_and_the_Grenadines
+      append member geo_Puerto_Rico
+      append member geo_Cayman_Islands
+      append member geo_Turks_and_Caicos_Islands
+      append member geo_Anguilla
+      append member geo_Aruba
+      append member geo_Bonaire_St.Eustatius_and_Saba
+      append member geo_Curacao
+      append member geo_Sint_Maarten
+      append member geo_St.Martin
+      append member geo_St.Bartelemey
+      append member geo_St.Pierre_and_Miquelon
+      append member geo_British_Virgin_Islands
+      append member geo_American_Virgin_Islands
+      append member geo_Guadeloupe
+      append member geo_Martinique
+      append member geo_Belize
+      append member geo_Costa_Rica
+      append member geo_El_Salvador
+      append member geo_Guatemala
+      append member geo_Honduras
+      append member geo_Nicaragua
+      append member geo_Panama
+      append member geo_United_States_Minor_Outlying_Islands
+  next
+  edit South_American
+      set member geo_Argentina
+      append member geo_Bolivia
+      append member geo_Brazil
+      append member geo_Chile
+      append member geo_Colombia
+      append member geo_Ecuador
+      append member geo_Falkland_Islands_Malvinas
+      append member geo_French_Guiana
+      append member geo_Guyana
+      append member geo_Paraguay
+      append member geo_Peru
+      append member geo_Suriname
+      append member geo_Uruguay
+      append member geo_Venezuela
+      append member geo_South_Georgia_and_the_South_Sandwich_Islands
+  next
+  edit Oceanian
+      set member geo_Australia
+      append member geo_New_Zealand
+      append member geo_Fiji
+      append member geo_Kiribati
+      append member geo_Marshall_Islands
+      append member geo_Micronesia
+      append member geo_Nauru
+      append member geo_Palau
+      append member geo_Papua_New_Guinea
+      append member geo_Samoa
+      append member geo_Solomon_Islands
+      append member geo_Tonga
+      append member geo_Tuvalu
+      append member geo_Vanuatu
+      append member geo_Wallis_and_Futuna
+      append member geo_Tokelau
+      append member geo_Niue
+      append member geo_Cook_Islands
+      append member geo_French_Polynesia
+      append member geo_New_Caledonia
+      append member geo_Guam
+      append member geo_Northern_Mariana_Islands
+      append member geo_Christmas_Island
+      append member geo_Cocos_Keeling_Islands
+      append member geo_Norfolk_Island
+      append member geo_Heard_Island_and_McDonald_Islands
+  next
+  edit Antarctic
+      set member geo_Antarctica
+  next
+end

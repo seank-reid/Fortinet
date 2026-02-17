@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8; IE=EDGE" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Guest Wi-Fi Terms
+    </title>
+    <style>
+      :root{
+        --bg1:#0b1220;
+            --bg2:#111c33;
+            --card:#ffffff;
+            --text:#1f2937;
+            --muted:#6b7280;
+            --border:#e5e7eb;
+            --primary:#2563eb;
+            --primary2:#1d4ed8;
+            --danger:#ef4444;
+            --danger2:#dc2626;
+            --shadow: 0 20px 60px rgba(0,0,0,.35);
+            --radius: 18px;
+          }
+          * {
+            box-sizing: border-box;
+          }
+          body{
+            margin:0;
+            min-height:100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text);
+            background:
+              radial-gradient(1200px 700px at 15% 15%, rgba(37,99,235,.35), transparent 55%),
+              radial-gradient(900px 500px at 90% 30%, rgba(16,185,129,.20), transparent 60%),
+              linear-gradient(180deg, var(--bg1), var(--bg2));
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding: 24px;
+          }
+          .wrap{
+            width: 100%;
+            max-width: 980px;
+            display:grid;
+            grid-template-columns: 1.05fr .95fr;
+            gap: 18px;
+            align-items: stretch;
+          }
+          @media (max-width: 920px){
+            .wrap{
+              grid-template-columns: 1fr;
+            }
+          }
+          .panel{
+            background: rgba(255,255,255,.06);
+            border: 1px solid rgba(255,255,255,.10);
+            border-radius: var(--radius);
+            padding: 22px;
+            color: rgba(255,255,255,.92);
+            box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+          }
+          .brand{
+            display:flex;
+            align-items:center;
+            gap: 14px;
+            margin-bottom: 14px;
+          }
+          /* ✅ LOGO uses FortiGate image token via CSS background */
+          .brand .logo{
+            width: 52px;
+            height: 52px;
+            border-radius: 14px;
+            background: url(%%IMAGE:demo%%) no-repeat center center;
+            background-size: cover;
+            border: 1px solid rgba(255,255,255,.15);
+            flex: 0 0 auto;
+            box-shadow: 0 10px 25px rgba(0,0,0,.25);
+          }
+          .brand h1{
+            font-size: 20px;
+            line-height: 1.2;
+            margin:0;
+            font-weight: 700;
+            letter-spacing: .2px;
+          }
+          .brand p{
+            margin: 2px 0 0 0;
+            color: rgba(255,255,255,.70);
+            font-size: 13px;
+            line-height: 1.4;
+          }
+          /* ✅ HERO uses same image token via CSS background */
+          .hero{
+            margin-top: 14px;
+            border-radius: 16px;
+            overflow:hidden;
+            border: 1px solid rgba(255,255,255,.14);
+            background: url(%%IMAGE:demo%%) no-repeat center center;
+            background-size: cover;
+            height: 240px;
+            background-color: rgba(0,0,0,.20);
+          }
+          .tips{
+            margin-top: 14px;
+            padding: 14px 14px;
+            border-radius: 14px;
+            border: 1px solid rgba(255,255,255,.14);
+            background: rgba(255,255,255,.06);
+            font-size: 13px;
+            line-height: 1.45;
+            color: rgba(255,255,255,.78);
+          }
+          .tips strong{
+            color: rgba(255,255,255,.92);
+          }
+          .card{
+            background: var(--card);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            padding: 22px;
+            border: 1px solid rgba(255,255,255,.06);
+            display:flex;
+            flex-direction: column;
+            min-height: 420px;
+          }
+          .card h2{
+            margin:0;
+            font-size: 22px;
+            letter-spacing: .2px;
+          }
+          .card .sub{
+            margin: 6px 0 16px 0;
+            color: var(--muted);
+            font-size: 14px;
+            line-height: 1.45;
+          }
+          .terms{
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 14px;
+            background: #fafafa;
+            color: #374151;
+            line-height: 1.5;
+            font-size: 14px;
+            height: 220px;
+            overflow:auto;
+          }
+          .agreeRow{
+            margin-top: 14px;
+            display:flex;
+            align-items:flex-start;
+            gap: 10px;
+            color: var(--text);
+          }
+          .agreeRow input{
+            margin-top: 3px;
+            width: 18px;
+            height: 18px;
+            accent-color: var(--primary);
+            cursor:pointer;
+            flex: 0 0 auto;
+          }
+          .agreeRow label{
+            cursor:pointer;
+            font-size: 14px;
+            line-height: 1.45;
+            color: #374151;
+          }
+          .actions{
+            margin-top: 16px;
+            display:flex;
+            gap: 10px;
+            flex-wrap: wrap;
+          }
+          button{
+            appearance:none;
+            border: none;
+            border-radius: 12px;
+            padding: 12px 14px;
+            font-weight: 700;
+            font-size: 14px;
+            cursor: pointer;
+            transition: transform .06s ease, filter .12s ease, opacity .12s ease;
+            min-width: 160px;
+          }
+          button:active{
+            transform: translateY(1px);
+          }
+          button.primary{
+            background: linear-gradient(180deg, var(--primary), var(--primary2));
+            color: #fff;
+          }
+          button.ghost{
+            background: #f3f4f6;
+            color: #111827;
+            border: 1px solid #e5e7eb;
+          }
+          button:disabled{
+            opacity: .55;
+            cursor: not-allowed;
+          }
+          .fineprint{
+            margin-top: auto;
+            padding-top: 14px;
+            color: var(--muted);
+            font-size: 12px;
+            line-height: 1.4;
+            border-top: 1px solid var(--border);
+          }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- LEFT: Brand/Info panel -->
+      <div class="panel">
+        <div class="brand">
+          <div class="logo" aria-hidden="true">
+          </div>
+          <div>
+            <h1>
+              Guest Wi-Fi Access
+            </h1>
+            <p>
+              Please review the acceptable use terms before continuing.
+            </p>
+          </div>
+        </div>
+        <div class="hero" aria-hidden="true">
+        </div>
+        <div class="tips">
+          <strong>
+            What this means:
+          </strong>
+          <br/>
+          This guest network provides Internet access only. Internal systems may be restricted and activity may be logged for security and troubleshooting.
+        </div>
+      </div>
+      <!-- RIGHT: Disclaimer card -->
+      <div class="card">
+        <h2>
+          Terms & Disclaimer
+        </h2>
+        <div class="sub">
+          To continue, confirm you understand and agree to the terms below.
+        </div>
+        <form id="disclaimerForm" action="%%DISCLAIMER_ACT%%" method="%%DISCLAIMER_METHOD%%">
+          <input type="hidden" name="%%REDIRID%%" value="%%PROTURI%%" />
+          <input type="hidden" name="%%MAGICID%%" value="%%MAGICVAL%%" />
+          <input type="hidden" name="%%ANSWERID%%" value="%%DECLINEVAL%%" />
+          <div class="terms">
+            You are about to access Internet content that is not under the control of the network access provider. The network access provider is therefore not responsible for any of these sites, their content, or their privacy policies. The network access provider and its staff do not endorse nor make any representations about these sites, or any information, software, or other products or materials found there, or any results that may be obtained from using them.
+            <br/>
+            <br/>
+            If you decide to access any Internet content, you do this entirely at your own risk and you are responsible for ensuring that any accessed material does not infringe the laws governing (including but not limited to) copyright, trademarks, pornography, or any other material which is slanderous, defamatory, or might cause offence in any other way.
+            <br/>
+            <br/>
+            By using this guest network, you agree that access may be monitored and restricted to protect users and the organization.
+          </div>
+          <div class="agreeRow">
+            <input id="agreeChk" type="checkbox" />
+            <label for="agreeChk">
+              I have read and agree to the Terms & Disclaimer.
+            </label>
+          </div>
+          <div class="actions">
+            <button id="agreeBtn" class="primary" type="button" disabled onclick="sb('%%AGREEVAL%%')">
+              Accept & Continue
+            </button>
+            <button class="ghost" type="button" onclick="sb('%%DECLINEVAL%%')">
+              Decline
+            </button>
+          </div>
+        </form>
+        <div class="fineprint">
+          Tip: If the captive portal doesn’t appear automatically, open a browser and visit an HTTP site (example: neverssl.com) to trigger the redirect.
+        </div>
+      </div>
+    </div>
+    <script>
+      // Enable the "Accept" button only when checkbox is checked
+      (function () {
+        var chk = document.getElementById('agreeChk');
+        var btn = document.getElementById('agreeBtn');
+        if (chk && btn) {
+          chk.addEventListener('change', function () {
+            btn.disabled = !chk.checked;
+          }
+                              );
+        }
+      }
+      )();
+      function sb(val) {
+        var f = document.getElementById('disclaimerForm');
+        f.%%ANSWERID%%.value = val;
+        f.submit();
+      }
+    </script>
+  </body>
+</html>
+

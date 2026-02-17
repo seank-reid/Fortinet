@@ -8,6 +8,7 @@ These templates are designed to be **copy/paste ready** into FortiGate **Replace
 - Guest user authentication portals  
 - Email collection portals  
 - Matching “failed/declined/invalid” pages
+- **NOTE:** Valid as of FortiOS 7.4.11 and FortiAP 7.4.5 
 
 ---
 

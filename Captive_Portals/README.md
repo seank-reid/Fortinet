@@ -43,41 +43,40 @@ Depending on what you pulled from this repo, you’ll typically see pages like:
 
 > Tip: If the portal doesn’t pop automatically, open a browser and visit an HTTP site like `neverssl.com` to trigger the redirect.
 
-These templates reference an uploaded image named demo using FortiGate’s image token:
+## Branding / Logo Image (Important)
 
-background: url(%%IMAGE:demo%%) no-repeat center center;
+These templates reference an uploaded image named **demo** using FortiGate’s image token. Example:
 
-Uploading images on FortiGate
+    background: url(%%IMAGE:demo%%) no-repeat center center;
+
+### Uploading images on FortiGate
 
 Upload your logo/background image here:
-System → Replacement Messages → Manage Images
 
-Image requirements (FortiGate)
+**System → Replacement Messages → Manage Images**
 
-Supported types: JPEG, PNG, GIF, TIFF
+### Image requirements (FortiGate)
 
-Maximum image size: 32 KiB
+- Supported types: **JPEG, PNG, GIF, TIFF**
+- Maximum image size: **32 KiB**
 
-Using your own image
+### Using your own image
 
 You have two options:
 
-Option A (recommended):
+**Option A (recommended):**
+- Upload your image and name it **demo** to match the templates.
 
-Upload your image and name it demo to match the templates.
+**Option B:**
+- Upload your image with a different name (example: **company_logo**)
+- Update the HTML anywhere you see:
 
-Option B:
-
-Upload your image with a different name (example: company_logo)
-
-Update the HTML anywhere you see:
-
-%%IMAGE:demo%%
-
+    %%IMAGE:demo%%
 
 Replace it with your image name:
 
-%%IMAGE:company_logo%%
+    %%IMAGE:company_logo%%
+
 
 ---
 

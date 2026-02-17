@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8; IE=EDGE" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Disclaimer Declined
+    </title>
+    <style>
+      :root{
+        --bg1:#0b1220;
+            --bg2:#111c33;
+            --card:#ffffff;
+            --text:#111827;
+            --muted:#6b7280;
+            --border:#e5e7eb;
+            --primary:#2563eb;
+            --primary2:#1d4ed8;
+            --shadow: 0 20px 60px rgba(0,0,0,.35);
+            --radius: 18px;
+          }
+          * {
+            box-sizing: border-box;
+          }
+          body{
+            margin:0;
+            min-height:100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text);
+            background:
+              radial-gradient(1200px 700px at 15% 15%, rgba(37,99,235,.35), transparent 55%),
+              radial-gradient(900px 500px at 90% 30%, rgba(16,185,129,.20), transparent 60%),
+              linear-gradient(180deg, var(--bg1), var(--bg2));
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding: 24px;
+          }
+          .card{
+            width: 100%;
+            max-width: 720px;
+            background: var(--card);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            padding: 22px;
+            border: 1px solid rgba(255,255,255,.08);
+          }
+          .header{
+            display:flex;
+            align-items:center;
+            gap: 14px;
+            margin-bottom: 14px;
+          }
+          /* ✅ Logo using FortiGate image token */
+          .logo{
+            width: 56px;
+            height: 56px;
+            border-radius: 14px;
+            background: url(%%IMAGE:demo%%) no-repeat center center;
+            background-size: cover;
+            border: 1px solid var(--border);
+            box-shadow: 0 10px 25px rgba(0,0,0,.15);
+            flex: 0 0 auto;
+          }
+          .titleWrap h1{
+            margin:0;
+            font-size: 22px;
+            letter-spacing: .2px;
+          }
+          .titleWrap p{
+            margin: 3px 0 0 0;
+            color: var(--muted);
+            font-size: 14px;
+            line-height: 1.45;
+          }
+          .body{
+            margin-top: 12px;
+            padding: 14px;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            background: #fafafa;
+            color: #374151;
+            line-height: 1.5;
+            font-size: 14px;
+          }
+          .actions{
+            margin-top: 16px;
+            display:flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items:center;
+          }
+          button{
+            appearance:none;
+            border: none;
+            border-radius: 12px;
+            padding: 12px 14px;
+            font-weight: 700;
+            font-size: 14px;
+            cursor: pointer;
+            min-width: 180px;
+            transition: transform .06s ease, opacity .12s ease;
+          }
+          button:active{
+            transform: translateY(1px);
+          }
+          .primary{
+            background: linear-gradient(180deg, var(--primary), var(--primary2));
+            color: #fff;
+          }
+          .ghost{
+            background: #f3f4f6;
+            color: #111827;
+            border: 1px solid var(--border);
+          }
+          .fineprint{
+            margin-top: 14px;
+            color: var(--muted);
+            font-size: 12px;
+            line-height: 1.4;
+          }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="header">
+        <div class="logo" aria-hidden="true">
+        </div>
+        <div class="titleWrap">
+          <h1>
+            Disclaimer Declined
+          </h1>
+          <p>
+            Network access cannot be granted unless you accept the terms.
+          </p>
+        </div>
+      </div>
+      <div class="body">
+        You declined the Terms & Disclaimer, so this device cannot access the guest network at this time.
+        <br/>
+        <br/>
+        If this was a mistake, click 
+        <strong>
+          Return to Disclaimer
+        </strong>
+        and accept the terms to continue.
+      </div>
+      <form action="/" method="post" class="actions">
+        <input type="hidden" name="%%REDIRID%%" value="%%PROTURI%%" />
+        <input type="hidden" name="%%MAGICID%%" value="%%MAGICVAL%%" />
+        <button class="primary" type="submit">
+          Return to Disclaimer
+        </button>
+        <button class="ghost" type="button" onclick="window.location.reload();">
+          Reload Page
+        </button>
+      </form>
+      <div class="fineprint">
+        Tip: If the portal doesn’t re-open automatically, disconnect/reconnect to Wi-Fi and open a browser to an HTTP site (example: neverssl.com).
+      </div>
+    </div>
+  </body>
+</html>
